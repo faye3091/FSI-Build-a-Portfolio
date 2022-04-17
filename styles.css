@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(167, 160, 241);
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
+  height: 100vh;
+  cursor: url(images/cursor.png), auto;
+}
+
+h1 {
+  color: black;
+  padding: 10 px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: darkmagenta;
+  background-color: rgb(188, 134, 188);
+  font-family: Verdana;
+  font-style: bold;
+}
+
+h2 {
+  color: black;
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+h3 {
+  color: black;
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+section {
+  height: 60vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-size: cover;
+  background-postion: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#one .profile-img {
+  border-image: round;
+  width: 300px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(219, 168, 219);
+}
+
+#one h1 {
+  font-size: 2em;
+}
+
+/*name*/
+#one {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("images/greece.jpg");
+}
+
+/*software developer section*/
+#two {
+  height: 40vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("https://cdn.columbiauniversitybootcamp.com/wp-content/uploads/sites/108/2021/03/CDG_blog_post_image_02-2-850x412.jpg");
+}
+
+/*My projects section*/
+#three {
+  height: 40vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("images/coding-portfolio.jpeg");
+}
+
+/*About me section*/
+#four {
+  height: 40vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("images/greece.jpg");
+}
+
+/*Contact me section*/
+#five {
+  height: 40vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("images/contact.jpg");
+}
+
+/*cursor*/
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background: #262626;
+  cursor: url(images/cursor.png), pointer;
+}
